@@ -200,8 +200,9 @@ public class CountryService {
             if(flag==4){
                 return null;
             }
-            doc = getDoc(location,flag);
             flag++;
+            doc = getDoc(location,flag);
+
         }
         return doc;
     }
